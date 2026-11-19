@@ -1,5 +1,5 @@
 // נתוני האתר. כאן עורכים תוכן: קומות, כיווני אוויר, סטטוס "נמכרה", טקסטים ומפרט.
-// לסימון דירה כנמכרה: לשנות "sold": false ל-"sold": true בשורה של הדירה (מוצג רק אם showStatus: true).
+// לסימון דירה כנמכרה: לשנות "sold": false ל-"sold": true בשורה של הדירה.
 window.SITE = {
   name: "דישראלי 48 חיפה",
   sub: "בניין חדש · 12 דירות",
@@ -29,14 +29,14 @@ window.SITE = {
     F: {"title": "פנטהאוז - 4 חדרים", "rooms": "4", "size": "127", "bal": "93.5 ו-10", "balText": "מרפסות כ-93.5 מ״ר וכ-10 מ״ר", "label": "", "img": "images/plan-F.jpg", "aptsText": "דירה 12"}
   },
   apts: [
-    {"num": "1", "floor": "-2", "t": "G", "price": "", "extras": "", "sold": true, "img": "", "dir": ""},
-    {"num": "2", "floor": "-1", "t": "A", "price": "", "extras": "", "sold": false, "img": "", "dir": ""},
-    {"num": "3", "floor": "קרקע", "t": "A", "price": "", "extras": "", "sold": true, "img": "", "dir": ""},
-    {"num": "8", "floor": "3", "t": "B", "price": "", "extras": "", "sold": true, "img": "", "dir": ""},
-    {"num": "10", "floor": "4", "t": "B", "price": "", "extras": "", "sold": true, "img": "", "dir": ""},
-    {"num": "9", "floor": "3", "t": "D", "price": "", "extras": "", "sold": false, "img": "", "dir": ""},
-    {"num": "11", "floor": "4", "t": "E", "price": "", "extras": "", "sold": false, "img": "", "dir": ""},
-    {"num": "12", "floor": "5", "t": "F", "price": "", "extras": "", "sold": false, "img": "", "dir": ""}
+    {"num": "1", "floor": "-2", "t": "G", "price": "", "extras": "", "sold": true, "img": "", "dir": "מזרח, צפון ודרום"},
+    {"num": "2", "floor": "-1", "t": "A", "price": "", "extras": "", "sold": false, "img": "", "dir": "מזרח, צפון ודרום"},
+    {"num": "3", "floor": "קרקע", "t": "A", "price": "", "extras": "", "sold": true, "img": "", "dir": "מזרח, צפון ודרום"},
+    {"num": "8", "floor": "3", "t": "B", "price": "", "extras": "", "sold": true, "img": "", "dir": "מזרח, צפון ודרום"},
+    {"num": "10", "floor": "4", "t": "B", "price": "", "extras": "", "sold": true, "img": "", "dir": "מזרח, צפון ודרום"},
+    {"num": "9", "floor": "3", "t": "D", "price": "", "extras": "", "sold": false, "img": "", "dir": "מערב, צפון ודרום"},
+    {"num": "11", "floor": "4", "t": "E", "price": "", "extras": "", "sold": false, "img": "", "dir": "מערב, צפון ודרום"},
+    {"num": "12", "floor": "5", "t": "F", "price": "", "extras": "", "sold": false, "img": "", "dir": "4 כיווני אוויר"}
   ],
   // בשני המפרטים: שורה שמתחילה ב-## היא כותרת משנה, ושאר השורות הן פריטים
   specB: `## חוויית מגורים שלמה – מפרט טכני ואיכות בנייה
